@@ -1,48 +1,19 @@
-div {
-    margin: 1em;
-    font-family: Helvetica, Arial, sans;
-  }
-  
-  h1 {
-    font-family: Helvetica, Arial, sans;
-    font-weight: bold;
-    margin: 1em;
-  }
-  
-  .st {
+.available{
     padding: 0.2em 0.5em;
-    background-color: green;
-  }
-  
-  .st:before {
-    content: "disponible";
-    color: white;
-  }
-  
-  .sh {
+    background-color: #1C8C4D;
+}
+
+.available:before{
+    content: "Disponible";
+    color: #FFFFFF;
+}
+
+.disabled{
     padding: 0.2em 0.5em;
-    background-color: red;
-  }
-  
-  .sh:before {
-    content: "no disponible";
-    color: white;
+    background-color: #DC3545;
 }
 
-.container{
-    background-color: grey;
-}
-
-
-#two{
-    background-color: blue;
-}
-#three{
-    background-color: green;
-}
-#four{
-    background-color: yellow;
-}
-#five{
-    background-color: orange;
+.disabled:before{
+  content: "No disponible";
+  color: #FFFFFF;
 }
